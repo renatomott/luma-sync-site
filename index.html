@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Luma Sync — sincronização local entre as cores da tela do Mac e luzes Philips Hue.">
+  <title>Luma Sync</title>
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="shell">
+    <a class="brand" href="./"><img src="icon.png" alt=""><span>Luma Sync</span></a>
+    <nav aria-label="Navegação principal">
+      <a href="privacy/">Privacidade</a>
+      <a href="support/">Suporte</a>
+      <div class="language-switch" aria-label="Language">
+        <button type="button" data-language-button="pt-BR" aria-pressed="true">PT</button>
+        <button type="button" data-language-button="en" aria-pressed="false">EN</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="shell">
+    <section class="hero">
+      <img src="icon.png" alt="Ícone do Luma Sync">
+      <div data-lang="pt-BR">
+        <h1>Sua tela, em cores,<br><span class="gradient-text">por toda a sala.</span></h1>
+        <p class="lede">O Luma Sync transforma as cores do seu Mac em iluminação dinâmica para uma Área de Entretenimento Philips Hue — com processamento local e sem gravar sua tela.</p>
+        <div class="actions"><a class="button primary" href="privacy/">Política de privacidade</a><a class="button" href="support/">Obter suporte</a></div>
+      </div>
+      <div data-lang="en" hidden>
+        <h1>Your screen, in color,<br><span class="gradient-text">across the room.</span></h1>
+        <p class="lede">Luma Sync turns the colors on your Mac into dynamic lighting for a Philips Hue Entertainment Area — with local processing and no screen recording stored.</p>
+        <div class="actions"><a class="button primary" href="privacy/">Privacy policy</a><a class="button" href="support/">Get support</a></div>
+      </div>
+    </section>
+
+    <section class="grid" data-lang="pt-BR">
+      <article class="card"><h2>Privado por padrão</h2><p>A captura é reduzida e analisada somente na memória do Mac.</p></article>
+      <article class="card"><h2>Rede local</h2><p>A comunicação ocorre diretamente entre o Mac e a Hue Bridge.</p></article>
+      <article class="card"><h2>Sem rastreamento</h2><p>Sem contas, publicidade, analytics ou coleta de dados pessoais.</p></article>
+    </section>
+    <section class="grid" data-lang="en" hidden>
+      <article class="card"><h2>Private by default</h2><p>Capture is downsampled and analyzed only in your Mac’s memory.</p></article>
+      <article class="card"><h2>Local network</h2><p>Communication happens directly between your Mac and Hue Bridge.</p></article>
+      <article class="card"><h2>No tracking</h2><p>No accounts, advertising, analytics, or personal data collection.</p></article>
+    </section>
+  </main>
+
+  <footer class="shell"><p>© 2026 Luma Sync</p><p>Independent software. Not affiliated with or endorsed by Signify.</p></footer>
+</body>
+</html>
